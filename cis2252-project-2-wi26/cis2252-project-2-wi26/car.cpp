@@ -11,3 +11,11 @@ Car::Car(int y, string mk, string mdl)
     model = mdl;
     speed = 0;
 }
+int
+return year
+string
+return make
+string
+return model
+int
+return speed
