@@ -14,10 +14,10 @@ int main()
     cout << "Car: " << car1.getYear() << " " << car1.getMake() << " " << car1.getModel() << endl;
     cout << "Speed: " << car1.getSpeed() << endl;
     cout << endl;
-}
+
 cout << "Accelerate 5 times" << endl;
 for (int i = 0; i < 5; i++)
-{
+
     car1.accelerate();
     cout << "Speed: " << car1.getSpeed() << endl;
     return 0;
