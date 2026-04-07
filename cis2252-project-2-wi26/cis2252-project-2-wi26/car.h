@@ -4,12 +4,15 @@
 //
 //  Created by Anthony Lang on 4/6/26.
 //
-(//need to include guards)
-class car
-int year
-public
-private
+#ifndef car.h
+#define car.h
+//guards for this file
+class Car
+public;
+int year;
+int speed;
+private;
 
 string make
 string model
-
+#endif
