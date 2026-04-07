@@ -24,9 +24,10 @@ const
 int Car::getSpeed()
 return speed
 const
-
+// braking and acceleration for car
 void Car::accelerate()
 if (speed + 5 > 150)
-
+else
 void Car::accelerate()
 if (speed - 5 < 0)
+else 
