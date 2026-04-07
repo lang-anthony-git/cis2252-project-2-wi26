@@ -15,3 +15,12 @@ int main()
     cout << "Speed: " << car1.getSpeed() << endl;
     cout << endl;
 }
+cout << "Accelerate 5 times"
+
+cout << "Brake 5 times"
+
+cout << "Test brake at 0"
+
+cout << "Test accelerate past 150"
+
+
