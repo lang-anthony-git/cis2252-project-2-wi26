@@ -25,6 +25,8 @@ int Car::getSpeed()
 return speed
 const
 
+void Car::accelerate()
 if (speed + 5 > 150)
 
+void Car::accelerate()
 if (speed - 5 < 0)
