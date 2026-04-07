@@ -3,7 +3,7 @@
 //includes car class
 #include "Car.h"
 
-using namespace STD;
+using namespace std;
 
 
 int main()
