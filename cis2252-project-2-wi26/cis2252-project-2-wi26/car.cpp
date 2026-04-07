@@ -11,15 +11,20 @@ Car::Car(int y, string mk, string mdl)
     model = mdl;
     speed = 0;
 }
-int
+//will return year make model and speed
+int Car::getYear()
 return year
 const
-string
+string Car::getMake()
 return make
 const
-string
+string Car::getModel()
 return model
 const
-int
+int Car::getSpeed()
 return speed
 const
+
+if (speed + 5 > 150)
+
+if (speed - 5 < 0)
