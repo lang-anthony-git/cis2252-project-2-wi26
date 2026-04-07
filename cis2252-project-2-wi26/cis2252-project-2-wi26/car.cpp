@@ -11,23 +11,48 @@ Car::Car(int y, string mk, string mdl)
     model = mdl;
     speed = 0;
 }
-//will return year make model and speed
-int Car::getYear()
-return year
-const
-string Car::getMake()
-return make
-const
-string Car::getModel()
-return model
-const
-int Car::getSpeed()
-return speed
-const
-// braking and acceleration for car
+//returns year, make, and model, speed
+int Car::getYear() const
+{
+    return year;
+}
+
+string Car::getMake() const
+{
+    return make;
+}
+
+string Car::getModel() const
+{
+    return model;
+}
+
+int Car::getSpeed() const
+{
+    return speed;
+}
+
+//adds 5 to speed unless over 150
 void Car::accelerate()
-if (speed + 5 > 150)
-else
-void Car::accelerate()
-if (speed - 5 < 0)
-else 
+{
+    if (speed + 5 > 150)
+    {
+        cout << "Warning: speed cannot go above 150." << endl;
+    }
+    else
+    {
+        speed = speed + 5;
+    }
+}
+//subtracts 5 from speed unless it goes below 0
+void Car::brake()
+{
+    if (speed - 5 < 0)
+    {
+        cout << "Warning: speed cannot go below 0." << endl;
+    }
+    else
+    {
+        speed = speed - 5;
+    }
+}
