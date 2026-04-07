@@ -17,23 +17,9 @@ int main()
     
     cout << "Accelerate 5 times" << endl;
     for (int i = 0; i < 5; i++)
-        
+    {
         car1.accelerate();
-    cout << "Speed: " << car1.getSpeed() << endl;
-    cout << "Accelerate 5 times" << endl;
-    for (int i = 0; i < 5; i++)
-        
-        car1.accelerate();
-    cout << "Speed: " << car1.getSpeed() << endl;
-    cout << "Accelerate 5 times" << endl;
-    for (int i = 0; i < 5; i++)
-        
-        car1.accelerate();
-    cout << "Speed: " << car1.getSpeed() << endl;
-    cout << "Accelerate 5 times" << endl;
-    for (int i = 0; i < 5; i++)
-        
-        car1.accelerate();
-    cout << "Speed: " << car1.getSpeed() << endl;
-    return 0;
+        cout << "Speed: " << car1.getSpeed() << endl;
+    }
+    cout << endl;
 }
