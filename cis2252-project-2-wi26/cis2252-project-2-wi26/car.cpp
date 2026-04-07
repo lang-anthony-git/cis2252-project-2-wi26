@@ -13,9 +13,13 @@ Car::Car(int y, string mk, string mdl)
 }
 int
 return year
+const
 string
 return make
+const
 string
 return model
+const
 int
 return speed
+const
